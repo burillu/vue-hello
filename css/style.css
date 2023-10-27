@@ -1,0 +1,12 @@
+.my-vue-bg{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+img{
+    opacity: 50%;
+    border-radius: 20px;
+}
+h1{
+    text-shadow: 0 0 5px white;
+}
