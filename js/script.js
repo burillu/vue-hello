@@ -8,21 +8,22 @@ createApp({
             message: `This is the first title print with Vue js...`,
             classH1: 'text-center',
             classImgVue: 'my-vue-img',
-            vueImg: 'url(https://pespantelis.github.io/vue-videobg/demo/assets/logo.png)',
-            divBg: 'my-vue-bg'
+            vueBg: 'url(https://pespantelis.github.io/vue-videobg/demo/assets/logo.png)',
+            divBgClass: 'my-vue-bg',
+            vueImg: 'https://dev-bay.com/wp-content/uploads/2022/02/2022-02-07_22h02_55.png'
 
         }
 
     },
     methods: {
-        printMsg: function (e) {
+        printMsg: function () {
 
 
 
             this.message = ` And this is the second`;
-            this.vueImg = 'url(https://crisp.chat/static/blog/content/images/2022/05/How-to-Migrate-a-large-project-from-Vue-2-to-Vue-3.jpg)';
+            this.vueBg = 'url(https://crisp.chat/static/blog/content/images/2022/05/How-to-Migrate-a-large-project-from-Vue-2-to-Vue-3.jpg)';
             this.classH1 = 'text-white';
-            this.divBg += ' d-flex align-items-center';
+            this.divBgClass += ' d-flex align-items-center justify-content-between';
 
         }
     }
